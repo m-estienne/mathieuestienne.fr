@@ -1,0 +1,163 @@
+
+
+/*Toolbar CSS*/
+.toolbar{
+    background-color: var(--darkblue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.toolbar_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toolbar_social_icon, .toolbar_contact_icon, .toolbar_location_icon{
+    height: 30px;
+    width: 30px;
+}
+
+.toolbar_social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.toolbar_social_icon{
+    margin-right: 0.5rem;
+}
+
+.github{
+    height: 25px;
+    width: 25px;
+}
+
+.toolbar_contact_link, .toolbar_location_link{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.toolbar_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar_contact{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Navbar CSS*/
+
+.navbar{
+    background-color: var(--light-gray);
+}
+
+
+.navbar_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.navbar_logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    height: 2.5rem;
+}
+
+.menu_btn{
+    cursor: pointer;
+    display: none;
+}
+.navbar_links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar_link{
+    text-decoration: none;
+    font-weight: 500;
+    color:var(--black);
+    margin-left: 1rem;
+}
+
+.navbar_link:hover{
+    color: var(--darkblue);
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+/*HEADER CSS*/
+ header{
+    background-color: background: rgb(233,233,233);
+    background: linear-gradient(90deg, rgba(233,233,233,1) 0%, rgba(185,218,255,1) 0%, rgba(164,178,232,1) 100%);;
+ }
+
+ .header_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ .header_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .site_title{
+    font-family: 'bluesquare';
+    font-weight: 1000;
+    font-size: 6rem;
+    color: var(--lightblue);
+    margin-bottom: 1rem;
+ }
+ 
+ .site_subtitle{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--darkblue);
+    margin-bottom: 1rem;
+ }
+
+ .header_button{
+    background-color: var(--lightblue);
+    font-weight: bold;
+    color: var(--white);
+    border: none;
+    font-size: 1.5rem;
+    width: 15rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+ }
+ .header_image{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .profile_picture{
+    width: 80%; 
+}
