@@ -61,6 +61,12 @@ body{
 	color: var(--black);
 }
 
+.section_title{
+	color: var(--lightblue);
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-bottom: 2.5rem;
+}
 /*Color Variables*/
 
 :root{

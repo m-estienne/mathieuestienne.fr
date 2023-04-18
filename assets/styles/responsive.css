@@ -26,6 +26,46 @@
     .hidden{
         display: none;
     }
+
+    /*Header Responsive CSS*/
+    .header_container{
+        flex-direction: column-reverse;
+    }
+
+    .header_text, .header_image{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile_picture{
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .site_title{
+        font-size: 15vw;
+        margin-bottom: 0;
+    }
+
+    .site_subtitle{
+        font-size: 5vw;
+        margin-bottom: 0.5rem;
+    }
+
+    .header_button{
+        font-size: 1rem;
+        width: 10rem;
+    }
+
+    /*Skills Responsive CSS*/
+    .skills_details{
+        flex-direction: column;
+    }
+
+    .developpement_skills, .other_skills{
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width:900px){

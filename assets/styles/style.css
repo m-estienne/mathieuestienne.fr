@@ -28,6 +28,7 @@
     align-items: center;
 }
 
+
 .toolbar_social_icon{
     margin-right: 0.5rem;
 }
@@ -54,6 +55,16 @@
     align-items: center;
 }
 
+
+.toolbar_contact_link:hover, .toolbar_location_link:hover{
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+.toolbar_social_link:hover{
+    transform: scale(1.25);
+}
 /*Navbar CSS*/
 
 .navbar{
@@ -124,24 +135,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
  }
 
  .site_title{
     font-family: 'bluesquare';
     font-weight: 1000;
-    font-size: 6rem;
+    font-size: 6vw;
     color: var(--lightblue);
     margin-bottom: 1rem;
  }
  
  .site_subtitle{
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     color: var(--darkblue);
     margin-bottom: 1rem;
  }
 
- .header_button{
+ .header_button, .cv_button{
     background-color: var(--lightblue);
     font-weight: bold;
     color: var(--white);
@@ -151,13 +163,153 @@
     padding: 0.5rem;
     cursor: pointer;
     margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .header_button:hover, .cv_button:hover{
+    background-color: var(--darkblue);
  }
  .header_image{
     width: 50%;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
  }
 
  .profile_picture{
     width: 80%; 
+}
+
+/*Presentation CSS*/
+
+.presentation_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.presentation_logo{
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.presentation_text{
+    text-align: center;
+    font-size: 18pt;
+}
+
+
+/*Skill CSS*/
+
+.skills{
+    background-color: var(--light-gray);
+}
+.skills_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+}
+
+.skills_details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.developpement_skills{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.other_skills{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    height:max-content;
+}
+
+.skill_title{
+    font-weight: bold;
+    color: var(--darkblue);
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.skill_bar{
+    width: 100%;
+    background-color: #fefefe;
+    height: 0.5rem;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.055);
+    margin-bottom: 1rem;
+}
+
+.skill_name{
+    font-weight: 600;
+    color: var(--lightblue);
+    font-size: 1rem;
+}
+.percent_50{
+    width: 50%;
+    height: 0.5rem;
+    background-color: var(--darkblue);
+    border-radius: 0.5em;
+}
+
+.percent_75{
+    width: 75%;
+    height: 0.5rem;
+    background-color: var(--darkblue);
+    border-radius: 0.5em;
+}
+
+.percent_80{
+    width: 80%;
+    height: 0.5rem;
+    background-color: var(--darkblue);
+    border-radius: 0.5em;
+}
+
+.percent_85{
+    width: 85%;
+    height: 0.5rem;
+    background-color: var(--darkblue);
+    border-radius: 0.5em;
+}
+.percent_90{
+    width: 90%;
+    height: 0.5rem;
+    background-color: var(--darkblue);
+    border-radius: 0.5em;
+}
+.percent_95{
+    width: 95%;
+    height: 0.5rem;
+    background-color: var(--darkblue);
+    border-radius: 0.5em;
+}
+
+.illustration_img{
+    margin-top: 3rem;
+    width: 70%;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.cv_button{
+    margin-top: 3rem;
 }
