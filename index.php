@@ -117,6 +117,47 @@
         </div>
     </section>
 
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio_container">
+            <h3 class="section_title">MES REALISATIONS</h3>
+            <div class="projects_list">
+                <div class="project">
+                    <img src="./assets/img/mockup_mathieu_estienne.jpg" alt="Mathieu Estienne" class="project_img">
+                    <h4 class="project_name">MATHIEUESTIENNE.FR</h4>
+                    <button class="btn_project" id="mathieu_estienne">En savoir plus</button>
+                </div>
+                <div class="project">
+                    <img src="./assets/img/Mockup_Alpha_Betise.jpg" alt="L'Alpha-Bêtise" class="project_img">
+                    <h4 class="project_name">L'ALPHA-BÊTISE</h4>
+                    <button class="btn_project" id="alpha_betise">En savoir plus</button>
+                </div>
+                <div class="project">
+                    <img src="./assets/img/Mockup_dmsmt.jpg" alt="Du miel sur mes tartines" class="project_img">
+                    <h4 class="project_name">DU MIEL SUR MES TARTINES</h4>
+                    <button class="btn_project" id="dmsmt">En savoir plus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact_container">
+            <h3 class="section_title">CONTACTEZ-MOI</h3>
+            <form method="POST">
+                <label class="form_label" for="name">Votre nom : <span class="required">*</span></label>
+                <input type="text" name="name" id="name" class="form_input" required>
+                <label for="phone" class="form_label">Votre numéro de téléphone : </label>
+                <input type="text" name="phone" id="phone" class="form_input" required>
+                <label for="email" class="form_label">Votre adresse email : <span class="required">*</span></label>
+                <input type="email" name="email" id="email" class="form_input" required>
+                <label for="message" class="form_label">Votre message : <span class="required">*</span></label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit" class="submit_btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <?php require_once './partials/footer.php'; ?>
     <script src="./assets/scripts/script.js"></script>
 </body>
 

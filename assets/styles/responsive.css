@@ -66,6 +66,11 @@
     .developpement_skills, .other_skills{
         width: 100%;
     }
+
+    /*Contact Responsive*/
+    form{
+        width: 90%;
+    }
 }
 
 @media (min-width: 768px) and (max-width:900px){
@@ -95,5 +100,10 @@
 
     .hidden{
         display: none;
+    }
+
+    /*Contact Responsive*/
+    form{
+        width: 90%;
     }
 }

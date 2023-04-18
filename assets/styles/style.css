@@ -153,7 +153,7 @@
     margin-bottom: 1rem;
  }
 
- .header_button, .cv_button{
+ .header_button, .cv_button, .submit_btn{
     background-color: var(--lightblue);
     font-weight: bold;
     color: var(--white);
@@ -167,7 +167,7 @@
     text-decoration: none;
  }
 
- .header_button:hover, .cv_button:hover{
+ .header_button:hover, .cv_button:hover, .submit_btn:hover{
     background-color: var(--darkblue);
  }
  .header_image{
@@ -313,3 +313,183 @@
 .cv_button{
     margin-top: 3rem;
 }
+
+/*Skills section CSS*/
+.portfolio_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+}
+
+.projects_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-gray);
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.project_img{
+    margin-bottom: 0.5rem;
+}
+
+.project_name{
+    font-weight: 600;
+    color: var(--darkblue);
+    text-align: center;
+}
+.btn_project{
+    background-color: var(--lightblue);
+    font-weight: bold;
+    color: var(--white);
+    border: none;
+    font-size: 1rem;
+    width: 15rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 0.5rem;
+}
+
+.btn_project:hover{
+    background-color: var(--darkblue);
+}
+
+/*Contact CSS*/
+.contact{
+    background-color: var(--light-gray);
+}
+.contact_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form_label{
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.form_input{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.submit_btn{
+    align-self: center;
+}
+
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+/*Footer CSS*/
+footer{
+    background-color: var(--darkblue);
+}
+
+.footer_container{
+    width: 80%;
+    margin: auto;
+}
+
+.footer_toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+ 
+}
+
+.footer_social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.footer_social_icon{
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+.footer_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_location_icon{
+    height: 30px;
+}
+
+.footer_location_link, .footer_contact_link, .footer_link{
+    color: var(--white);
+    text-decoration: none;
+
+}
+
+.footer_location:hover, .footer_contact:hover, .footer_link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+.footer_contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer_contact_icon{
+    height: 30px;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid var(--white);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer_link{
+    margin-right: 1rem;
+}
+
+.footer_copyright{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--white);
+}
+
